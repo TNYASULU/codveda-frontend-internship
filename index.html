@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NexaFlow – Modern SaaS Platform</title>
+  <title>Lusunya General Dealers – Quality Clothing & Shoes for Everyone</title>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -103,7 +104,7 @@
       transition: all 0.3s;
     }
 
-    /* ── HERO ── */
+    /* ── HERO SECTION ── */
     .hero {
       min-height: 100vh;
       display: flex; align-items: center; justify-content: center;
@@ -258,6 +259,11 @@
       display: flex; align-items: center; justify-content: center;
       font-size: 1.3rem; margin-bottom: 1.2rem;
       box-shadow: 0 0 20px rgba(124,92,252,0.3);
+      color: #fff;
+    }
+    .feature-icon i {
+      font-size: 1.4rem;
+      color: #fff;
     }
     .feature-card h3 {
       font-family: 'Syne', sans-serif;
@@ -388,6 +394,10 @@
     .footer-socials a {
       color: var(--muted); text-decoration: none;
       font-size: 0.82rem; transition: color 0.2s;
+      display: flex; align-items: center; gap: 0.4rem;
+    }
+    .footer-socials a i {
+      font-size: 0.95rem;
     }
     .footer-socials a:hover { color: var(--accent); }
 
@@ -423,12 +433,12 @@
 
   <!-- NAVBAR -->
   <nav>
-    <div class="nav-logo">NexaFlow</div>
+    <div class="nav-logo">Lusunya General Dealers</div>
     <ul class="nav-links" id="navLinks">
-      <li><a href="#features">Features</a></li>
-      <li><a href="#how">How it works</a></li>
-      <li><a href="#testimonials">Reviews</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#features">Products</a></li>
+      <li><a href="#how">Why Choose Us</a></li>
+      <li><a href="#testimonials">Customer Reviews</a></li>
+      <li><a href="#contact">Shop Now</a></li>
     </ul>
     <div class="nav-cta">
       <button class="btn-ghost">Log in</button>
@@ -439,71 +449,71 @@
     </div>
   </nav>
 
-  <!-- HERO -->
+  <!-- HERO SECTION-->
   <section class="hero" id="home">
     <div class="blob blob-1"></div>
     <div class="blob blob-2"></div>
 
     <div class="hero-badge">
-      <span class="dot"></span> Now in public beta — join 12,000+ teams
+      <span class="dot"></span> Premium Quality Clothing & Shoes for All Ages — Free Shipping on Orders Over $50
     </div>
 
     <h1>
-      Build faster.<br/>
-      <span class="gradient-text">Ship smarter.</span>
+      Quality Fashion for <br/>
+      <span class="gradient-text">Every Family Member</span>
     </h1>
 
-    <p>NexaFlow gives your team one unified workspace to plan, build, and deliver — without the context-switching that kills momentum.</p>
+    <p>Shop premium clothing and shoes for babies, children, and adults. From stylish everyday wear to formal occasions, find the perfect fit for everyone in your family.</p>
 
     <div class="hero-actions">
-      <button class="btn-primary btn-large">Start for free →</button>
-      <button class="btn-outline">Watch demo ▶</button>
+      <button class="btn-primary btn-large">Shop Collection →</button>
+      <button class="btn-outline">Browse Catalog</button>
     </div>
 
     <div class="hero-stats">
-      <div class="stat"><strong>12K+</strong><span>Active teams</span></div>
-      <div class="stat"><strong>99.9%</strong><span>Uptime SLA</span></div>
-      <div class="stat"><strong>4.9★</strong><span>User rating</span></div>
-      <div class="stat"><strong>2× faster</strong><span>Average delivery</span></div>
+      <div class="stat"><strong>10K+</strong><span>Happy Customers</span></div>
+      <div class="stat"><strong>5,000+</strong><span>Products Available</span></div>
+      <div class="stat"><strong>4.9★</strong><span>Customer Rating</span></div>
+      <div class="stat"><strong>Fast</strong><span>Delivery Service</span></div>
     </div>
   </section>
 
   <!-- FEATURES -->
   <section class="features" id="features">
-    <p class="section-label">Features</p>
-    <h2 class="section-title">Everything your team needs</h2>
-    <p class="section-sub">Powerful tools that adapt to your workflow — not the other way around.</p>
+    <p class="section-label">Our Products</p>
+    <h2 class="section-title">Complete Selection for Every Family</h2>
+    <p class="section-sub">High-quality clothing and shoes designed for comfort, style, and durability at every life stage.</p>
 
     <div class="features-grid">
       <article class="feature-card">
-        <div class="feature-icon">⚡</div>
-        <h3>Lightning Performance</h3>
-        <p>Sub-100ms responses across all core actions. Your team won't sit waiting — ever.</p>
+        <div class="feature-icon"><i class="fas fa-baby"></i></div>
+        <h3>Baby Clothing & Shoes</h3>
+        <p>Soft, comfortable fabrics and protective shoes designed for the delicate needs of infants and toddlers.</p>
       </article>
       <article class="feature-card">
-        <div class="feature-icon">🔒</div>
-        <h3>Enterprise Security</h3>
-        <p>SOC 2 Type II certified with end-to-end encryption and granular role permissions.</p>
+        <div class="feature-icon"><i class="fas fa-child"></i></div>
+        <h3>Kids Collection</h3>
+        <p>Durable and fun designs for children that can withstand active play while keeping them looking great.</p>
       </article>
       <article class="feature-card">
-        <div class="feature-icon">🔗</div>
-        <h3>100+ Integrations</h3>
-        <p>Connect GitHub, Slack, Figma, Jira, and dozens more — all in one click.</p>
+        <div class="feature-icon"><i class="fas fa-shoe-prints"></i></div>
+        <h3>Premium Footwear</h3>
+        <p>Comfortable, stylish shoes for babies, kids, and adults - from casual to formal occasions.</p>
       </article>
       <article class="feature-card">
-        <div class="feature-icon">📊</div>
-        <h3>Real-time Analytics</h3>
-        <p>Live dashboards that surface what matters. Spot blockers before they slow you down.</p>
+        <div class="feature-icon"><i class="fas fa-venus-mars"></i></div>
+        <h3>Menswear</h3>
+        <p>Quality clothing for men and boys - from casual wear to professional attire for every occasion.</p>
       </article>
       <article class="feature-card">
-        <div class="feature-icon">🤖</div>
-        <h3>AI Assistance</h3>
-        <p>Smart suggestions, automated summaries, and predictive task assignment — built in.</p>
+        <div class="feature-icon"><i class="fas fa-crown"></i></div>
+        <h3>Women & Girls</h3>
+        <p>Stylish and elegant collections for women and girls with latest fashion trends and timeless classics.</p>
       </article>
       <article class="feature-card">
-        <div class="feature-icon">🌍</div>
-        <h3>Global Collaboration</h3>
-        <p>Async-first design with timezone awareness and live presence indicators.</p>
+        <div class="feature-icon"><i class="fas fa-shipping-fast"></i></div>
+        <h3>Fast Delivery</h3>
+        <p>Quick shipping with tracking. Free delivery on orders over $50. Hassle-free returns within 30 days.</p>
       </article>
     </div>
   </section>
@@ -511,30 +521,30 @@
   <!-- HOW IT WORKS -->
   <section id="how">
     <div class="how">
-      <p class="section-label">How it works</p>
-      <h2 class="section-title">Up and running in minutes</h2>
-      <p class="section-sub">No lengthy onboarding. No consultants needed. Just sign up and go.</p>
+      <p class="section-label">Easy Shopping</p>
+      <h2 class="section-title">Shop in Just 4 Simple Steps</h2>
+      <p class="section-sub">Browse, select, checkout, and enjoy. We make shopping convenient and straightforward.</p>
 
       <div class="steps">
         <div class="step">
           <div class="step-num">1</div>
-          <h4>Create your workspace</h4>
-          <p>Sign up and invite your team in under 60 seconds. No credit card required.</p>
+          <h4>Browse Our Collection</h4>
+          <p>Explore thousands of quality items organized by category, age, and style preferences.</p>
         </div>
         <div class="step">
           <div class="step-num">2</div>
-          <h4>Connect your tools</h4>
-          <p>Sync your existing stack — GitHub, Slack, Figma — with one-click integrations.</p>
+          <h4>Find Your Perfect Fit</h4>
+          <p>Use our detailed size guides and customer reviews to ensure the perfect selection.</p>
         </div>
         <div class="step">
           <div class="step-num">3</div>
-          <h4>Plan your sprint</h4>
-          <p>Create tasks, set priorities, and assign work. Your board is ready instantly.</p>
+          <h4>Quick & Secure Checkout</h4>
+          <p>Safe payment options with encrypted transactions. Multiple payment methods available.</p>
         </div>
         <div class="step">
           <div class="step-num">4</div>
-          <h4>Ship & celebrate</h4>
-          <p>Track progress live, hit your deadlines, and watch your velocity improve.</p>
+          <h4>Receive & Enjoy</h4>
+          <p>Fast delivery with tracking. Hassle-free returns and excellent customer support.</p>
         </div>
       </div>
     </div>
@@ -542,33 +552,33 @@
 
   <!-- TESTIMONIALS -->
   <section class="testimonial-section" id="testimonials">
-    <p class="section-label">Testimonials</p>
-    <h2 class="section-title">Loved by builders worldwide</h2>
-    <p class="section-sub">Real teams, real results — not cherry-picked case studies.</p>
+    <p class="section-label">Customer Reviews</p>
+    <h2 class="section-title">Loved by Families Everywhere</h2>
+    <p class="section-sub">Real customers, real reviews. See why families trust Lusunya General Dealers.</p>
 
     <div class="testimonials">
       <div class="t-card">
         <div class="t-stars">★★★★★</div>
-        <p>"NexaFlow cut our planning overhead by 40%. Our engineers actually enjoy sprint planning now — that felt impossible before."</p>
+        <p>"Excellent quality clothing for my kids! The shoes are so comfortable and durable. Best prices I've found and shipping was incredibly fast."</p>
         <div class="t-author">
-          <div class="t-avatar">SM</div>
-          <div><strong>Sarah M.</strong><span>CTO, Luma Health</span></div>
+          <div class="t-avatar">MS</div>
+          <div><strong>Masiyano Sibale</strong><span>Mother of 3</span></div>
         </div>
       </div>
       <div class="t-card">
         <div class="t-stars">★★★★★</div>
-        <p>"The AI summaries alone save me an hour every morning. I can't imagine going back to how we used to run standups."</p>
+        <p>"Great selection for the whole family! My baby's clothes are so soft and well-made. I love that everything is organized by size and age group."</p>
         <div class="t-author">
-          <div class="t-avatar">JK</div>
-          <div><strong>James K.</strong><span>Lead Developer, Stratos</span></div>
+          <div class="t-avatar">TS</div>
+          <div><strong>Tamala Sibale</strong><span>New Parent</span></div>
         </div>
       </div>
       <div class="t-card">
         <div class="t-stars">★★★★★</div>
-        <p>"We switched from three tools to just NexaFlow. The integration with GitHub alone made it worth every penny."</p>
+        <p>"The quality is amazing for these prices! I shop here for my entire family - from baby to adult. The customer service is top-notch!"</p>
         <div class="t-author">
-          <div class="t-avatar">AN</div>
-          <div><strong>Amara N.</strong><span>Product Manager, Velox</span></div>
+          <div class="t-avatar">TN</div>
+          <div><strong>Taona Nyasulu</strong><span>Regular Customer</span></div>
         </div>
       </div>
     </div>
@@ -577,9 +587,9 @@
   <!-- CTA -->
   <section class="cta-section" id="contact">
     <div class="cta-box">
-      <h2>Ready to move faster?</h2>
-      <p>Join thousands of teams already shipping with NexaFlow. Free to start, scales with you.</p>
-      <button class="btn-primary btn-large">Get started for free →</button>
+      <h2>Start Shopping Today!</h2>
+      <p>Discover our complete collection of quality clothing and shoes for your entire family. Enjoy fast shipping, great prices, and exceptional service.</p>
+      <button class="btn-primary btn-large">Shop Now →</button>
     </div>
   </section>
 
@@ -587,45 +597,45 @@
   <footer>
     <div class="footer-top">
       <div class="footer-brand">
-        <div class="nav-logo">NexaFlow</div>
-        <p>The unified workspace for modern engineering teams.</p>
+        <div class="nav-logo">Lusunya General Dealers</div>
+        <p>Quality clothing and shoes for babies, children, and adults. Your one-stop shop for the whole family.</p>
       </div>
       <div class="footer-links">
         <div class="footer-col">
-          <h5>Product</h5>
+          <h5>Shop</h5>
           <ul>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#how">How it works</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Changelog</a></li>
+            <li><a href="#features">All Products</a></li>
+            <li><a href="#">Baby Clothing</a></li>
+            <li><a href="#">Kids Wear</a></li>
+            <li><a href="#">Footwear</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h5>Company</h5>
           <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Press</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Locations</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h5>Support</h5>
+          <h5>Customer Care</h5>
           <ul>
-            <li><a href="#">Docs</a></li>
-            <li><a href="#">Status</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#">Security</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#">Size Guide</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2026 NexaFlow Inc. All rights reserved.</p>
+      <p>© 2026 Lusunya General Dealers. All rights reserved.</p>
       <div class="footer-socials">
-        <a href="#">Twitter</a>
-        <a href="#">GitHub</a>
-        <a href="#">LinkedIn</a>
+        <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+        <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="#"><i class="fas fa-phone"></i> Call Us</a>
       </div>
     </div>
   </footer>
